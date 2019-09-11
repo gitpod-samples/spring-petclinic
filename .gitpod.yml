@@ -1,4 +1,3 @@
-# exposed ports
 ports:
 - port: 8080
   onOpen: open-preview
@@ -6,3 +5,7 @@ ports:
 tasks:
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-test@0.19.0:xwfuoJBZpCcLrZ33G3zkXA==
