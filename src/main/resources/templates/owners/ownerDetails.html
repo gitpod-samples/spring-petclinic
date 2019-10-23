@@ -4,15 +4,15 @@
   th:replace="~{fragments/layout :: layout (~{::body},'owners')}">
 
   <body>
-  
-  
+
+
     <h2>Owner Information</h2>
-  
-  
+
+
     <table class="table table-striped" th:object="${owner}">
       <tr>
         <th>Name</th>
-        <td><b th:text="*{firstName + ' ' + lastName}"></b></td>
+        <td><b th:text="*{fullName}"></b></td>
       </tr>
       <tr>
         <th>Address</th>
@@ -27,19 +27,19 @@
         <td th:text="*{telephone}" /></td>
       </tr>
     </table>
-  
+
     <a th:href="@{{id}/edit(id=${owner.id})}" class="btn btn-default">Edit
       Owner</a>
     <a th:href="@{{id}/pets/new(id=${owner.id})}" class="btn btn-default">Add
       New Pet</a>
-  
+
     <br />
     <br />
     <br />
     <h2>Pets and Visits</h2>
-  
+
     <table class="table table-striped">
-  
+
       <tr th:each="pet : ${owner.pets}">
         <td valign="top">
           <dl class="dl-horizontal">
@@ -75,9 +75,9 @@
           </table>
         </td>
       </tr>
-  
+
     </table>
-  
+
   </body>
 
 </html>
