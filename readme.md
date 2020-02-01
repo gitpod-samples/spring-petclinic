@@ -1,4 +1,4 @@
-# Spring PetClinic Sample application [![setup automated](https://img.shields.io/badge/setup-automated-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
+# Spring PetClinic Sample application [![setup automated](https://img.shields.io/badge/Gitpod-ready_to_code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
 Start coding in a [ready-to-code development environment](https://www.gitpod.io):
 
