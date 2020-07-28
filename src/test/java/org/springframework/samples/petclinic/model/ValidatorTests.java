@@ -42,7 +42,7 @@ public class ValidatorTests {
     }
 
     @Test
-    public void shouldNotValidateWhenFirstNameEmpty() {
+    public void shouldValidateWhenFirstNameEmpty() {
 
         LocaleContextHolder.setLocale(Locale.ENGLISH);
         Person person = new Person();
@@ -53,10 +53,7 @@ public class ValidatorTests {
         Set<ConstraintViolation<Person>> constraintViolations = validator
                 .validate(person);
 
-        assertThat(constraintViolations).hasSize(1);
-        ConstraintViolation<Person> violation = constraintViolations.iterator().next();
-        assertThat(violation.getPropertyPath().toString()).isEqualTo("firstName");
-        assertThat(violation.getMessage()).isEqualTo("must not be empty");
+        assertThat(constraintViolations).hasSize(0);
     }
 
 }
