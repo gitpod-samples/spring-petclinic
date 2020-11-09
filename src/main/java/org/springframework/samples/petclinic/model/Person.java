@@ -34,6 +34,9 @@ public class Person extends BaseEntity {
     @NotEmpty
     private String lastName;
 
+    /**
+     * Hello World
+     */
     public String getFirstName() {
         return this.firstName;
     }
