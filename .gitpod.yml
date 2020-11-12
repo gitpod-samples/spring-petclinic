@@ -1,4 +1,3 @@
-# start up tasks
 tasks:
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
@@ -7,3 +6,7 @@ tasks:
 ports:
 - port: 8080
   onOpen: open-preview
+
+vscode:
+  extensions:
+    - richardwillis.vscode-gradle@3.5.2:0iC/chWp6z6ecqNv1BAYyQ==
