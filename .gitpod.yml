@@ -1,4 +1,4 @@
-# start up tasks
+
 tasks:
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
@@ -7,3 +7,7 @@ tasks:
 ports:
 - port: 8080
   onOpen: open-preview
+
+vscode:
+  extensions:
+    - redhat.java
