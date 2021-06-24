@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<!-- Set the title here -->
+    <title>Tea Recipe</title>
+    
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+	<body>
+		<!-- Add your header here -->
+		<header>
+			Recipe name, image, description
+		</header>
+		<section>
+			ingredients list
+		</section>
+		<ol>
+            <li>Tea Bag</li>
+            <li>Water</li>
+            <li>Milk</li>
+            <li>Sugar</li>
+            <li>Cup/Mug</li>
+            <li>Spoon</li>
+        </ol>
+		<section>
+			preparation list
+		</section>
+		<ol>
+            <li>Put a tea bag inside your cup/mug</li>
+            <li>Heat up the water</li>
+            <li>Fill in the tea cup/mug</li>
+            <li>Stir the tea bag with the water to make it strong</li>
+            <li>Add a bit of milk</li>
+            <li>Add sugar into your tea</li>
+            <li>Stir again your tea</li>
+        </ol>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="emailaddress">Email Address:</label>
+            <input type="email"><br><br>
+            <label for="telephonenumber">Telephone Number</label>
+            <input type="telephone number"><br><br>
+            <label for="dateofbirth">Choose a date, month and year:</label>
+            <input type="date" id="month" name="year"><br><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male"><br><br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female"><br><br>
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country"><br><br>
+            <select name="country" id="country">
+            <option value="united arab emirates">United Arab Emirates</option>
+            <option value="america">America</option>
+            <option value="uk">UK</option><br><br>
+            <label for="state">State:</label><br>
+            <input type="text" id="state" name="state">
+            <select name="state" id="state"></select><br><br>
+            <option value="dubai">Dubai</option>
+            <option value="los angeles">Los Angeles</option>
+            <option value="london">London</option>
+            <option value="washington dc">Washington DC</option><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <button type="submit">Sign Up</button>
+            <button type="submit">Login</button>
+            <input type="checkbox" checked="checked" name="keep me signed in">Keep me signed in<br><br>
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="button" class="forgotbtn">Forgot</button>
+        </form>
+		<footer>
+			copyright
+		</footer>
+		<script src="index.js"></script>
+	</body>
+</html>
