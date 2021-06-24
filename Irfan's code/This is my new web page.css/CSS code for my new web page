@@ -23,4 +23,8 @@ footer:
     text-color: sapphire;
     border-corner: 25px;
 
-
+header:
+    border-color: paleblue;
+    background-color: darkblue;
+    text-color: brown;
+    border-corner: 30px;
