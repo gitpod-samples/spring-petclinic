@@ -1,0 +1,26 @@
+CSS3 Code style for the Tea Recipe in HTML5
+head:
+    border-color: black;
+    background-color: red;
+    border-corner: 10px;
+    text-color: purple;
+
+body:
+    border-color: red;
+    background-color: silver;
+    border-corner: 15px;
+    text-color: blue;
+
+form:
+    border-color: orange;
+    background-color: lightblue;
+    border-corner: 20px;
+    text-color: red;
+
+footer:
+    border-color: gold;
+    background-color: ruby;
+    text-color: sapphire;
+    border-corner: 25px;
+
+
