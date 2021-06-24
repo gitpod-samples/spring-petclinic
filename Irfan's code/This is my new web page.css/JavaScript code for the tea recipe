@@ -1,0 +1,36 @@
+JavaScript code for the tea Recipe
+<script src="scripts/main.js"></script>  
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+ 
+
+
+<script>
+    // Your web app's Firebase configuration for tea Recipe
+    var firebaseConfig = {
+        apiKey: "AIzaSyAB3ttE6oM189zk0DbSfiEYUU957B8ElpQ",
+        authDomain: "chat-app-epb.firebaseapp.com",
+        databaseURL: "https://chat-app-epb.firebaseio.com",
+        projectId: "chat-app-epb",
+        storageBucket: "chat-app-epb.appspot.com",
+        messagingSenderId: "1093623374346",
+        appId: "1:1093623374346:web:7168d29ccd4044451235f3"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+        var database = firebase.database();
+        var auth = firebase.auth();
+        var google = new firebase.auth.GoogleAuthProvider();
+        var github = new firebase.auth.GithubAuthProvider();
+</script>
