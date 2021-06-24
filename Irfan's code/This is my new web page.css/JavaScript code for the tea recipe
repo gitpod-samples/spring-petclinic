@@ -34,3 +34,17 @@ JavaScript code for the tea Recipe
         var google = new firebase.auth.GoogleAuthProvider();
         var github = new firebase.auth.GithubAuthProvider();
 </script>
+<script>
+    // The tea Recipe has the most reliable lists like the ordered list which is different to the other HTML or CSS page that I have created
+    var firebaseConfig = {
+        apiKey: "AIzaSyAB3ttE6oM189zk0DbSfiEYUU957B8ElpQ",
+        messagingSenderId: "1093623374346",
+        appId: "1:1093623374346:web:7168d29ccd4044451235f3"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+        var database = firebase.database();
+        var auth = firebase.auth();
+        var google = new firebase.auth.GoogleAuthProvider();
+        var github = new firebase.auth.GithubAuthProvider();
+</script>
