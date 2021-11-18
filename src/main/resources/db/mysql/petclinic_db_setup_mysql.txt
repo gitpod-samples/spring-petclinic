@@ -26,4 +26,4 @@
 
 N.B. the "petclinic" database has to exist for the app to work with the JDBC URL value
 as it is configured by default. This condition is taken care of by the docker-compose
-configuration provided, or by the `schema.sql` if you can run that as root.
+configuration provided, or by the `schema.sql` if you can run that as root. Yep.
