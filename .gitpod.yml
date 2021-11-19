@@ -3,7 +3,7 @@ image:
 
 tasks:
 - init: ./mvnw package -DskipTests
-  command: java -jar target/*.jar
+#   command: java -jar target/*.jar
 
 # exposed ports
 ports:
