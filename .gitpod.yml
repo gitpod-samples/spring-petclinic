@@ -4,7 +4,7 @@ image:
 tasks:
 # - init: ./mvnw package -DskipTests
 #   command: java -jar target/*.jar
-  command: echo "Hello GED Warrior!"
+- command: echo "Hello GED Warrior!"
 
 # exposed ports
 ports:
