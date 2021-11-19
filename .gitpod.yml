@@ -13,7 +13,6 @@ ports:
 
 vscode:
   extensions:
-  extensions:
     - vscjava.vscode-java-debug@0.23.0:3ARqL3kPh1J1SwpVjYUjqw==
     - redhat.java@0.54.2:Q60n5quUtfd1EcwzkRq96A==
     - vscjava.vscode-java-test@0.22.0:BlvjRRJyZszeJzIS+xEHIA==
