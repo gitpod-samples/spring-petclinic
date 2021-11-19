@@ -2,8 +2,9 @@ image:
   file: Dockerfile
 
 tasks:
-- init: ./mvnw package -DskipTests
+# - init: ./mvnw package -DskipTests
 #   command: java -jar target/*.jar
+  command: echo "Hello GED Warrior!"
 
 # exposed ports
 ports:
