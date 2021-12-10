@@ -1,5 +1,5 @@
-# image:
-#   file: Dockerfile
+image:
+  file: Dockerfile
 
 tasks:
 # - init: ./mvnw package -DskipTests
