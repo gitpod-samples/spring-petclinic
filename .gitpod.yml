@@ -1,5 +1,13 @@
 
 tasks:
+- init: |
+    mkdir /tmp/backend && cd /tmp/backend
+    curl -sSLo backend.tar.gz "https://download.jetbrains.com/idea/ideaIU-2021.3.2.tar.gz" && tar -xf backend.tar.gz --strip-components=1 && rm backend.tar.gz
+    printf '\nshared.indexes.download.auto.consent=true' >> "/tmp/backend/bin/idea.properties"
+    unset JAVA_TOOL_OPTIONS
+    export IJ_HOST_CONFIG_BASE_DIR=/workspace/.config/JetBrains
+    export IJ_HOST_SYSTEM_BASE_DIR=/workspace/.cache/JetBrains
+    /tmp/backend/bin/remote-dev-server.sh warmup "$GITPOD_REPO_ROOT"
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
 
