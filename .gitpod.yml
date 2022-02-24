@@ -1,6 +1,7 @@
 
 tasks:
 - init: |
+    if [ ! "$GITPOD_HEADLESS" = "true" ] ; then exit ; fi
     mkdir /tmp/backend && cd /tmp/backend
     curl -sSLo backend.tar.gz "https://download.jetbrains.com/idea/ideaIU-2021.3.2.tar.gz" && tar -xf backend.tar.gz --strip-components=1 && rm backend.tar.gz
     printf '\nshared.indexes.download.auto.consent=true' >> "/tmp/backend/bin/idea.properties"
