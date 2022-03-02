@@ -1,5 +1,20 @@
 
 tasks:
+- init: |
+    if [ ! "$GITPOD_HEADLESS" = "true" ] ; then exit ; fi
+    curl https://raw.githubusercontent.com/gitpod-io/gitpod/main/WORKSPACE.yaml > /tmp/gitpod_workspace.yaml
+    sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+    sudo chmod a+x /usr/local/bin/yq
+    INTELLIJ_DOWNLOAD_URL=$(yq eval '.defaultArgs.intellijDownloadUrl' /tmp/gitpod_workspace.yaml)
+    echo $INTELLIJ_DOWNLOAD_URL
+    mkdir /tmp/backend && cd /tmp/backend
+    curl -sSLo backend.tar.gz "$INTELLIJ_DOWNLOAD_URL" && tar -xf backend.tar.gz --strip-components=1 && rm backend.tar.gz
+    printf '\nshared.indexes.download.auto.consent=true' >> "/tmp/backend/bin/idea.properties"
+    unset JAVA_TOOL_OPTIONS
+    export IJ_HOST_CONFIG_BASE_DIR=/workspace/.config/JetBrains
+    export IJ_HOST_SYSTEM_BASE_DIR=/workspace/.cache/JetBrains
+    /tmp/backend/bin/remote-dev-server.sh warmup "$GITPOD_REPO_ROOT"
+  name: IntellIJ warm up
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
 
