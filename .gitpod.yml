@@ -1,5 +1,4 @@
-
-tasks
+tasks:
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
 
