@@ -1,4 +1,6 @@
 tasks:
+- init: ./scripts/intellij-indexing.sh
+  name: IntellIJ indexing
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
 
