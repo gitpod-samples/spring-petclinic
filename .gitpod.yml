@@ -1,10 +1,10 @@
 tasks:
 - init: ./mvnw package -DskipTests
-  command: java -jar target/*.jar
+  command: java -jar -Dspring.profiles.active=preview target/*.jar
 
 # exposed ports
 ports:
-- port: 8080
+- port: 8090
   onOpen: open-preview
 
 vscode:
