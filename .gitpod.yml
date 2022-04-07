@@ -1,5 +1,6 @@
 tasks:
-- init: ./mvnw package -DskipTests
+- name: Terminal 1
+  init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
 
 # exposed ports
