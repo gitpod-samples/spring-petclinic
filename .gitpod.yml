@@ -1,9 +1,9 @@
 tasks:
-- init: ./scripts/intellij-indexing.sh
-  name: IntellIJ indexing
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
-
+- init: ./scripts/intellij-indexing.sh
+  name: IntellIJ indexing
+ 
 # exposed ports
 ports:
 - port: 8080
@@ -15,3 +15,7 @@ vscode:
     - vscjava.vscode-java-debug
     - vscjava.vscode-java-test
     - pivotal.vscode-spring-boot
+
+jetbrains:
+  plugins:
+    - com.haulmont.jpab
