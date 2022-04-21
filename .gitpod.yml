@@ -1,6 +1,7 @@
 tasks:
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
+  name: Run PetClinic app
 - init: ./scripts/intellij-indexing.sh
   name: IntellIJ indexing
  
