@@ -1,3 +1,6 @@
+image:
+  file: Dockerfile
+
 tasks:
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
