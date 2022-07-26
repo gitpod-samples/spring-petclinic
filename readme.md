@@ -1,4 +1,4 @@
-# Spring PetClinic Sample application [![setup automated](https://img.shields.io/badge/Gitpod-ready_to_code-orange?logo=gitpod)](https://gitpod.io/from-referrer/)
+## Spring PetClinic Sample application [![setup automated](https://img.shields.io/badge/Gitpod-ready_to_code-orange?logo=gitpod)](https://gitpod.io/from-referrer/)
 
 Start coding in a [ready-to-code development environment](https://www.gitpod.io):
 
@@ -6,7 +6,7 @@ Start coding in a [ready-to-code development environment](https://www.gitpod.io)
     <img src="https://gitpod.io/button/open-in-gitpod.svg" width="150" alt="Push" align="center">
 </a>
 
-## Understanding the Spring Petclinic application with a few diagrams
+### Understanding the Spring Petclinic application with a few diagrams
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
 
 <img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
