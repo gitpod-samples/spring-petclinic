@@ -1,5 +1,6 @@
-image: gitpod/workspace-java-17
-
+image:
+  file: .gitpod.Dockerfile
+  
 tasks:
 - init: ./mvnw -B dependency:go-offline package -DskipTests
   command: java -jar target/*.jar
