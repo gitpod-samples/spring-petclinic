@@ -1,5 +1,5 @@
 tasks:
-- init: ./mvnw package -DskipTests
+- init: ./mvnw -B dependency:go-offline package -DskipTests
   command: java -jar target/*.jar
   name: Run PetClinic app
  
