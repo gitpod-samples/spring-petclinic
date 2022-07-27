@@ -8,5 +8,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+  <component name="UnattendedHostPersistenceState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="702" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java" />
+        </OpenedFileInfo>
+      </list>
+    </option>
+  </component>
 </project>
