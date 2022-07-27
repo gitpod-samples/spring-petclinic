@@ -1,4 +1,4 @@
-## Spring PetClinic Sample application [![setup automated](https://img.shields.io/badge/Gitpod-ready_to_code-orange?logo=gitpod)](https://gitpod.io/from-referrer/)
+## Spring PetClinic Sample application [![setup automated](https://img.shields.io/badge/Gitpod-ready_to_code-orange?logo=gitpod)](https://gitpod.io/#https://github.com/gitpod-io/spring-petclinic) 
 
 [Petclinic](https://github.com/spring-projects/spring-petclinic) is a [Spring Boot](https://spring.io/guides/gs/spring-boot/) application built using [Maven](https://spring.io/guides/gs/maven/).
 
@@ -17,7 +17,7 @@ Setup Gitpod integration with Jetbrains Gateway using the instructions given in 
 Click the button below to start a new workspace on Gitpod which will automatically open the workspace in IntelliJ IDEA through JetBrains Gateway.  
 
 
-<a href="https://gitpod.io/from-referrer/" style="padding: 10px;">
+<a href="https://gitpod.io/#https://github.com/gitpod-io/spring-petclinic" style="padding: 10px;">
     <img src="https://gitpod.io/button/open-in-gitpod.svg" width="150" alt="Push" align="center">
 </a>
 
