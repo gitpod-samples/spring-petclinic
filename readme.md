@@ -4,15 +4,9 @@
 
 ## Table of Contents
 
- - [Understanding the Spring Petclinic application with a few diagrams](#understanding-the-spring-petclinic-application-with-a-few-diagrams)
  - [Run petclinic on Gitpod](#run-petclinic-on-gitpod)
  - [Get Started With Your Own Project](#get-started-with-your-own-project)
  - [Community support](#community-support)
-
-### Understanding the Spring Petclinic application with a few diagrams
-<a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
-
-<img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
 
 ## Run petclinic on Gitpod
 
