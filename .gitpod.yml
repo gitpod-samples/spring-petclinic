@@ -13,8 +13,9 @@ ports:
 
 vscode:
   extensions:
+    - redhat.java
     - pivotal.vscode-spring-boot
-    - vscjava.vscode-java-pack
+    # - vscjava.vscode-java-pack
 
 jetbrains:
   intellij:  

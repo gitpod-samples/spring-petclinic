@@ -1,1 +1,1 @@
-FROM afalzetti/test-java:2
+FROM afalzetti/test-java:11
