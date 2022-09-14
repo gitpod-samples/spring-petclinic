@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -11,15 +10,5 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
   <component name="ProjectType">
     <option name="id" value="jpab" />
-  </component>
-  <component name="UnattendedHostPersistenceState">
-    <option name="openedFilesInfos">
-      <list>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="702" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java" />
-        </OpenedFileInfo>
-      </list>
-    </option>
   </component>
 </project>
