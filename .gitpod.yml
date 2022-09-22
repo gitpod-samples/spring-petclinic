@@ -15,6 +15,7 @@ vscode:
 
 jetbrains:
   intellij:  
+    vmoptions: '-Dfoo=bar'
     plugins:
       - com.haulmont.jpab
     prebuilds:
