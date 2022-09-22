@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springframework.samples.petclinic.visit;
+package org.springframework.samples.petclinic.owner;
 
 import java.time.LocalDate;
 
@@ -35,46 +35,34 @@ import org.springframework.samples.petclinic.model.BaseEntity;
 @Table(name = "visits")
 public class Visit extends BaseEntity {
 
-    @Column(name = "visit_date")
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private LocalDate date;
+	@Column(name = "visit_date")
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
+	private LocalDate date;
 
-    @NotEmpty
-    @Column(name = "description")
-    private String description;
+	@NotEmpty
+	private String description;
 
-    @Column(name = "pet_id")
-    private Integer petId;
+	/**
+	 * Creates a new instance of Visit for the current date
+	 */
+	public Visit() {
+		this.date = LocalDate.now();
+	}
 
-    /**
-     * Creates a new instance of Visit for the current date
-     */
-    public Visit() {
-        this.date = LocalDate.now();
-    }
+	public LocalDate getDate() {
+		return this.date;
+	}
 
-    public LocalDate getDate() {
-        return this.date;
-    }
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
 
-    public void setDate(LocalDate date) {
-        this.date = date;
-    }
+	public String getDescription() {
+		return this.description;
+	}
 
-    public String getDescription() {
-        return this.description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public Integer getPetId() {
-        return this.petId;
-    }
-
-    public void setPetId(Integer petId) {
-        this.petId = petId;
-    }
+	public void setDescription(String description) {
+		this.description = description;
+	}
 
 }

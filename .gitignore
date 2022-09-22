@@ -1,4 +1,7 @@
 target/*
+bin/*
+build/*
+.gradle/*
 .settings/*
 .classpath
 .project
@@ -6,4 +9,11 @@ target/*
 .attach_pid*
 /target
 .sts4-cache/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 _site/
+*.css
+!petclinic.css
