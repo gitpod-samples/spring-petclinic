@@ -5,6 +5,10 @@ tasks:
   - init: ./mvnw clean install -U -DskipTests
     command: ./mvnw spring-boot:run
     name: Run PetClinic app
+  - command: mob moo
+    name: Mob Control
+    openIn: bottom
+    openMode: split-right
 
 ports:
   - port: 8080
