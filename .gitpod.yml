@@ -1,3 +1,6 @@
+image: .Dockerfile
+
+
 tasks:
   - init: ./mvnw clean install -U -DskipTests
     command: ./mvnw spring-boot:run
