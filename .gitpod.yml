@@ -1,5 +1,4 @@
-image: .Dockerfile
-
+image: gitpod/workspace-base
 
 tasks:
   - init: ./mvnw clean install -U -DskipTests
