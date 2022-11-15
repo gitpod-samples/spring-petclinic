@@ -10,7 +10,7 @@
 
 ## Run petclinic on Gitpod
 
-Start coding in a [ready-to-code development environment](https://www.gitpod.io)
+Start coding in a [ready-to-code, cloud development environment](https://www.gitpod.io)
 
 Setup Gitpod integration with Jetbrains Gateway using the instructions given in this [doc](https://www.gitpod.io/docs/ides-and-editors/intellij).
 
