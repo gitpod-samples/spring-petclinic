@@ -1,3 +1,5 @@
+image: gitpod/workspace-full
+
 tasks:
   - init: ./mvnw clean install -U -DskipTests
     command: ./mvnw spring-boot:run
