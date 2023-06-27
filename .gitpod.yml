@@ -1,3 +1,5 @@
+image: gitpod/workspace-full
+
 tasks:
   - init: ./mvnw clean install -U -DskipTests
     command: ./mvnw spring-boot:run
@@ -16,5 +18,3 @@ jetbrains:
   intellij:
     plugins:
       - com.haulmont.jpab
-    prebuilds:
-      version: both
