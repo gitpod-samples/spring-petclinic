@@ -20,4 +20,4 @@ jetbrains:
       - com.haulmont.jpab
 
 coreDump:
-  emabled: true
+  enabled: true
