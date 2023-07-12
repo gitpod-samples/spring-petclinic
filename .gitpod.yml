@@ -21,3 +21,5 @@ jetbrains:
 
 coreDump:
   enabled: true
+  softLimit: 2147483647
+  hardLimit: 2147483647
