@@ -19,4 +19,4 @@ jetbrains:
     plugins:
       - com.haulmont.jpab
     prebuilds:
-      version: stable
+      version: both
