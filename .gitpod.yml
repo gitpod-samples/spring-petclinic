@@ -20,3 +20,4 @@ jetbrains:
       - com.haulmont.jpab
     prebuilds:
       version: latest
+    vmoptions: '-Didea.diagnostic.opentelemetry.otlp=true -Drdct.connection.metrics.enabled=true'
