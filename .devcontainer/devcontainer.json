@@ -21,5 +21,13 @@
       ]
     }
   },
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Port 8080",
+      "onAutoForward": "openPreview",
+      "elevateIfNeeded": true
+    }
+  }
 }
