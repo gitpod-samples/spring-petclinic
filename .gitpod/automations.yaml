@@ -14,4 +14,3 @@ tasks:
         name: "Build"
         triggeredBy:
             - manual
-
